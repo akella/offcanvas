@@ -30,8 +30,8 @@ body, html { height: 100%; position: relative; }
 @media screen and (max-width: 500px) { .header .header__in { width: auto; height: auto; } }
 .header .header__dec { position: absolute; bottom: 50px; border-top: 1px solid #EEEFEA; box-shadow: 0 -1px 0 #c9cac5; width: 100%; left: 0; }
 @media screen and (max-width: 500px) { .header .header__dec { position: static; } }
-.header .header__logo a { width: 258px; height: 78px; background: url(../img/logo.jpg) no-repeat 0 0; display: block; position: absolute; top: 40px; }
-@media screen and (max-width: 500px) { .header .header__logo a { position: static; background: url('../img/icons-sa28bcb48b8.png') 0 0 no-repeat; width: 145px; height: 59px; } }
+.header .header__logo a { width: 99px; height: 99px; background: url(../img/logo.jpg) no-repeat 0 0; display: block; position: absolute; top: 40px; }
+@media screen and (max-width: 500px) { .header .header__logo a { position: static; background: url('../img/icons-s3634da5edb.png') 0 -142px no-repeat; width: 72px; height: 72px; } }
 .header .nav dt { display: none; }
 @media screen and (max-width: 500px) { .header .nav dt { display: block; color: #ffffff; background: #675E55; padding: 5px 0 5px 20px; } }
 .header .nav ul { position: absolute; bottom: 0; list-style: none; }
@@ -57,9 +57,9 @@ body, html { height: 100%; position: relative; }
 .search input[type=text] { border: 1px solid #C2C2C2; background: #FFFFFF; width: 290px; font-size: 12px; padding: 4px 10px; height: 22px; border-radius: 4px; }
 @media screen and (max-width: 500px) { .search input[type=text] { width: auto; } }
 .search input[type=submit] { position: absolute; right: 0; height: 20px; background: green; z-index: 10; opacity: 0; cursor: pointer; }
-.search .search__button { height: 30px; background: url('../img/icons-sa28bcb48b8.png') 0 -375px no-repeat; width: 30px; height: 30px; position: absolute; right: 1px; top: 1px; border-left: 1px solid #C2C2C2; }
+.search .search__button { height: 30px; background: url('../img/icons-s3634da5edb.png') 0 -388px no-repeat; width: 30px; height: 30px; position: absolute; right: 1px; top: 1px; border-left: 1px solid #C2C2C2; }
 
-.cart { position: absolute; right: 0; top: 80px; background: url('../img/icons-sa28bcb48b8.png') 0 -69px no-repeat; width: 47px; height: 50px; }
+.cart { position: absolute; right: 0; top: 80px; background: url('../img/icons-s3634da5edb.png') 0 0 no-repeat; width: 47px; height: 50px; }
 @media screen and (max-width: 500px) { .cart { position: relative; left: 0; top: 0; } }
 
 .content { margin: 20px auto; width: 1026px; width: 100%; padding: 20px; float: left; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
